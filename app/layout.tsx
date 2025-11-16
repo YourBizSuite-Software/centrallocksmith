@@ -33,8 +33,9 @@ export const metadata: Metadata = {
     "car key replacement Houston",
   ],
   icons: {
-    icon: "/favicon.ico",
-    apple: "/apple-touch-icon.png",
+    icon: "/favicon.ico",          // ⬅️ changed
+    shortcut: "/favicon.ico",
+    apple: "/apple-touch-icon.png"
   },
   manifest: "/manifest.json",
   openGraph: {
@@ -46,7 +47,7 @@ export const metadata: Metadata = {
     url: "https://thecentrallocksmith.com",
     images: [
       {
-        url: "/locksmith-og.jpg",
+        url: "/locksmith-og-new.jpg",  // ⬅️ use the new OG image
         width: 1200,
         height: 630,
         alt: "Central Locksmith Houston TX",
@@ -59,7 +60,7 @@ export const metadata: Metadata = {
       "Central Locksmith | 24/7 Locksmith in Houston TX – Car, Home & Business",
     description:
       "24/7 mobile locksmith in Houston with fast response. Car lockouts, home lockouts, lock change, rekeying & car key programming.",
-    images: ["/locksmith-og.jpg"],
+    images: ["/locksmith-og-new.jpg"], // ⬅️ same here
   },
 };
 
